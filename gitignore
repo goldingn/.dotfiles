@@ -1,0 +1,12 @@
+# cached authorization tokens
+.httr-oauth
+
+# stupid finder files
+.DS_store
+
+# any R or RStudio stuff
+*.Rproj
+.Rproj.user/
+.Rhistory
+.RData
+.Rproj.user
