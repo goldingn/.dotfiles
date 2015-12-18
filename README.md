@@ -14,8 +14,7 @@ git clone git://github.com/goldingn/dotfiles ~/.dotfiles
 Then you can run the setup script with
 
 ``` bash
-cd ~/.dotfiles
-./makesymlinks.sh
+cd ~/.dotfiles && bash ./makesymlinks.sh
 ```
 
 The setup script is smart enough to back up your existing dotfiles into a `~/.dotfiles_old/` directory if you already have any dotfiles
