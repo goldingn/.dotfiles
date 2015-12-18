@@ -1,0 +1,13 @@
+#!/bin/bash
+# script to connect (or disconnect) from a VPN
+
+# to start a connection do, e.g.:
+#   vpn ox
+# or
+#   vpn ox start
+
+# to stop one do e.g.:
+#   vpn ox stop
+
+
+scutil --nc ${2-start} ${1-ox}

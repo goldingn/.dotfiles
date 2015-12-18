@@ -1,0 +1,5 @@
+#!/bin/bash
+
+cd Dropbox
+find . -type f -name "* conflicted *" -exec rm -f {} \;
+cd
