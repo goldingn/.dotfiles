@@ -8,7 +8,7 @@ but this fork uses my dotfiles instead and makes a couple of modifications, incl
 The repo should be cloned to your home directory so that the path is `~/.dotfiles/` with:
 
 ``` bash
-git clone git://github.com/goldingn/dotfiles ~/.dotfiles
+git clone git://github.com/goldingn/.dotfiles ~/.dotfiles
 ```
 
 Then you can run the setup script with
