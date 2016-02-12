@@ -1,3 +1,6 @@
+# prompt
+export PS1="\u:\W$ "
+
 # path
 PATH="/usr/local/bin:/usr/local/opt/gcc/libexec/gcc:/usr/local/opt/coreutils/libexec/gnubin:~/.scripts:$PATH"
 MANPATH="/usr/local/opt/coreutils/libexec/gnuman:$MANPATH"
