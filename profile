@@ -2,7 +2,7 @@
 export PS1="\u:\W$ "
 
 # path
-PATH="/usr/local/bin:/usr/local/opt/gcc/libexec/gcc:/usr/local/opt/coreutils/libexec/gnubin:~/.scripts:$PATH"
+PATH="/usr/bin:/usr/local/bin:/usr/local/opt/gcc/libexec/gcc:/usr/local/opt/coreutils/libexec/gnubin:~/.scripts:$PATH"
 MANPATH="/usr/local/opt/coreutils/libexec/gnuman:$MANPATH"
 
 # git autocompletion
@@ -23,11 +23,15 @@ alias grep="grep --color=always"
 alias egrep="egrep --color=always"
 
 # open a version of RStudio in which rJava actually works...
-alias rstudio='LD_LIBRARY_PATH=$(/usr/libexec/java_home)/jre/lib/server: open -a RStudio'
+# alias rstudio='LD_LIBRARY_PATH=$(/usr/libexec/java_home)/jre/lib/server: open -a RStudio'
+# alias rstudio='LD_LIBRARY_PATH=/Library/Java/JavaVirtualMachines/jdk1.8.0_74.jdk/Contents/Home/jre/lib/server open -a RStudio'
 
 # set gcc to a real, recent gcc (not the native one, which is actually clang)
 alias gcc='/usr/local/bin/gcc'
 
 # recursively delete Dropbox conflicted files
 alias rmdbc="find ~/Dropbox -name *\ \(*conflicted* -exec rm {} \;"
+
+# export the java path
+export LD_LIBRARY_PATH=/Library/Java/JavaVirtualMachines/jdk1.8.0_74.jdk/Contents/Home/jre/lib:/Library/Java/JavaVirtualMachines/jdk1.8.0_74.jdk/Contents/Home/jre/lib/server
 

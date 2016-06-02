@@ -2,7 +2,10 @@
 .httr-oauth
 
 # stupid finder files
-.DS_store
+.DS_Store
+
+# stupid vim/OSX temp files
+*~
 
 # any R or RStudio stuff
 *.Rproj

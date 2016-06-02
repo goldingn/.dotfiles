@@ -1,5 +1,5 @@
 #!/bin/bash
 
 # keep homebrew up to date
-brew update && brew upgrade brew-cask && brew cleanup && brew cask cleanup
+brew update && brew cleanup && brew cask cleanup
 
