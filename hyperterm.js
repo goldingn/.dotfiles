@@ -30,6 +30,9 @@ module.exports = {
     // custom padding (css format, i.e.: `top right bottom left`)
     padding: '12px 14px',
 
+    // size of the window on opening
+    windowSize: [1200, 700],
+
     // the full list. if you're going to provide the full color palette,
     // including the 6 x 6 color cubes and the grayscale map, just provide
     // an array here instead of a color map object
@@ -67,7 +70,7 @@ module.exports = {
   //   `project#1.0.1`
   plugins: [
 		'hyperterm-atom-dark', // theme
-		'hyperpower-plus', // silliness
+		// 'hyperpower-plus', // silliness
 		'hypercwd', //new tabs open in cwd
 		'hyperterm-dibdabs',  // coloured dots
 		'hyperterm-bold-tab',  // bold tab title
