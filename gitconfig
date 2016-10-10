@@ -25,3 +25,5 @@
 [diff "pandoc"]
 	textconv=pandoc --to=markdown
 	prompt = false
+[fetch]
+	prune = true
