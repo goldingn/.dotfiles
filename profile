@@ -33,6 +33,9 @@ alias gcc='/usr/local/bin/gcc'
 # recursively delete Dropbox conflicted files
 alias rmdbc="find ~/Dropbox -name *\ \(*conflicted* -exec rm {} \;"
 
+# log into boag easily
+alias boab='ssh ngolding@boab.qaeco.com -t screen -DR main'
+
 # export the java path
 export LD_LIBRARY_PATH=/Library/Java/JavaVirtualMachines/jdk1.8.0_74.jdk/Contents/Home/jre/lib:/Library/Java/JavaVirtualMachines/jdk1.8.0_74.jdk/Contents/Home/jre/lib/server
 
