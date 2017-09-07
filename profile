@@ -37,6 +37,20 @@ alias rmdbc="find ~/Dropbox -name *\ \(*conflicted* -exec rm {} \;"
 alias boab='ssh ngolding@boab.qaeco.com -t screen -DR main'
 alias boab_ssh='ssh ngolding@boab.qaeco.com'
 
+# set up thefuck to correct bad commands
+eval "$(thefuck --alias)"
+
 # export the java path
 export LD_LIBRARY_PATH=/Library/Java/JavaVirtualMachines/jdk1.8.0_74.jdk/Contents/Home/jre/lib:/Library/Java/JavaVirtualMachines/jdk1.8.0_74.jdk/Contents/Home/jre/lib/server
 
+# google compute engine stuff
+export GCE_AUTH_FILE=/Users/nick/.greta-9d98b1756da0.json
+export GCE_DEFAULT_PROJECT_ID=greta-170500
+export GCE_DEFAULT_ZONE=asia-east1-a
+export GCE_SSH_USER=nick
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/nick/Downloads/google-cloud-sdk/path.bash.inc' ]; then source '/Users/nick/Downloads/google-cloud-sdk/path.bash.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/nick/Downloads/google-cloud-sdk/completion.bash.inc' ]; then source '/Users/nick/Downloads/google-cloud-sdk/completion.bash.inc'; fi
