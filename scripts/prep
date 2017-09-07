@@ -1,0 +1,27 @@
+#!/bin/bash
+
+# prepare a download for editing
+# 3. append '_NG' before the extension
+# 4. open the file in the default application 
+
+# get the filename and extension
+file=$1
+filename=$(basename "$file")
+extension="${filename##*.}"
+filename="${filename%.*}"
+
+# replace spaces in filename with underscores
+filename=${filename// /_}
+
+# append _NG
+filename=$filename"_NG"
+
+# create new file path
+newfile="/Users/nick/temp/$filename.$extension"
+
+# move file 
+mv "$file" "$newfile"
+
+# open file
+open $newfile
+
