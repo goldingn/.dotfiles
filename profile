@@ -22,6 +22,7 @@ alias lo="ls -lhtr"
 alias lsd="du -h --max-depth=1 . | sort -h"
 alias grep="grep --color=always"
 alias egrep="egrep --color=always"
+alias rs="open . -a RStudio"
 
 # open a version of RStudio in which rJava actually works...
 # alias rstudio='LD_LIBRARY_PATH=$(/usr/libexec/java_home)/jre/lib/server: open -a RStudio'
