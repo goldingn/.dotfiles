@@ -3,7 +3,7 @@ export PS1="\u:\W$ "
 
 # path
 
-PATH="/usr/local/opt/coreutils/libexec/gnubin:/usr/local/bin:/usr/bin:/usr/local/opt/gcc/libexec/gcc:/usr/local/opt/coreutils/libexec/gnubin:~/.scripts:$PATH:~/Dropbox/Github/GPflow"
+PATH="/usr/local/opt/python/libexec/bin:/usr/local/opt/coreutils/libexec/gnubin:/usr/local/opt/gcc/libexec/gcc:/usr/local/opt/coreutils/libexec/gnubin:~/.scripts:$PATH:~/Dropbox/Github/GPflow"
 MANPATH="/usr/local/opt/coreutils/libexec/gnuman:$MANPATH"
 
 # git autocompletion
