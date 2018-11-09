@@ -1,9 +1,10 @@
 [user]
 	name = Nick Golding
 	email = goldingn35@gmail.com
+	signingkey = AB5EB6BD9035E38F
 
 [credential]
-	helper = cache
+	helper = osxkeychain
 
 [push]
 	default = matching
@@ -27,3 +28,7 @@
 	prompt = false
 [fetch]
 	prune = true
+[commit]
+	gpgsign = false
+[gpg]
+	program = gpg
