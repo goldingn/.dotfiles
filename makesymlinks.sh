@@ -8,7 +8,7 @@
 
 dir=~/.dotfiles                    # dotfiles directory
 olddir=~/.dotfiles_old             # old dotfiles backup directory
-files="hyper.js profile Rprofile gitignore gitconfig vimrc vim scripts git-completion.bash"    # list of files/folders to symlink in homedir
+files="hyper.js profile Rprofile gitignore gitconfig vimrc vim scripts git-completion.bash zshrc zprofile"    # list of files/folders to symlink in homedir
 
 ##########
 
