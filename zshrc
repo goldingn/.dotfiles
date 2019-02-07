@@ -33,7 +33,14 @@ ZSH_THEME="hyper-oh-my-zsh"
 # DISABLE_LS_COLORS="true"
 
 # Uncomment the following line to disable auto-setting terminal title.
-# DISABLE_AUTO_TITLE="true"
+DISABLE_AUTO_TITLE="true"
+
+# make the tab title the working directory, from here:
+# https://github.com/robbyrussell/oh-my-zsh/issues/5700#issuecomment-316111109
+function precmd () {
+  window_title="\033]0;${PWD##*/}\007"
+  echo -ne "$window_title"
+}
 
 # Uncomment the following line to enable command auto-correction.
 # ENABLE_CORRECTION="true"
