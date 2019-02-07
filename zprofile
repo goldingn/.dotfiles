@@ -4,8 +4,8 @@
 # path
 
 
-PATH="/Users/nick/miniconda2/bin:/usr/local/opt/python/libexec/bin:/usr/local/opt/coreutils/libexec/gnubin:/usr/local/opt/gcc/libexec/gcc:/usr/local/opt/coreutils/libexec/gnubin:~/.scripts:$PATH:~/Dropbox/Github/GPflow"
-MANPATH="/usr/local/opt/coreutils/libexec/gnuman:$MANPATH"
+# PATH="/Users/nick/miniconda2/bin:/usr/local/opt/python/libexec/bin:/usr/local/opt/coreutils/libexec/gnubin:/usr/local/opt/gcc/libexec/gcc:/usr/local/opt/coreutils/libexec/gnubin:~/.scripts:$PATH:~/Dropbox/Github/GPflow"
+# MANPATH="/usr/local/opt/coreutils/libexec/gnuman:$MANPATH"
 
 # aliases
 alias la="ls -a"
