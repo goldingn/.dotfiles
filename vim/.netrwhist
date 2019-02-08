@@ -1,8 +1,9 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_cnt =7
 let g:netrw_dirhist_1='/Users/nick/Dropbox/github/greta/.github'
 let g:netrw_dirhist_2='/Users/nick/Dropbox/github/greta/docs'
 let g:netrw_dirhist_3='/Users/nick/Dropbox/github/greta/vignettes/analyses'
 let g:netrw_dirhist_4='/Users/nick/Dropbox/github/greta/vignettes/webpages'
 let g:netrw_dirhist_5='/Users/nick/Dropbox/github/greta/man/figures'
 let g:netrw_dirhist_6='/Users/nick/Dropbox/github/bayes_ecology_course/.git'
+let g:netrw_dirhist_7='/Users/nick'
