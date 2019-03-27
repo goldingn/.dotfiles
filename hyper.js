@@ -71,7 +71,7 @@ module.exports = {
   plugins: [
 		'hyperterm-atom-dark', // theme
 		// 'hyperpower-plus', // silliness
-	  'hypercwd', //new tabs open in cwd
+	  	// 'hypercwd', //new tabs open in cwd
 		'hyperterm-dibdabs',  // coloured dots
 		'hyperterm-bold-tab',  // bold tab title
 	   ],
